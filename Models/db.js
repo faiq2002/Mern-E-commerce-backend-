@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const env = require("dotenv").config();
-const db_connection_string = process.env.DB_connection;
+const db_connection_string = process.env. DB_Connection_Online;
 mongoose
   .connect(db_connection_string)
   .then(() => {
